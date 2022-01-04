@@ -34,7 +34,16 @@ sed -i 's/opensource.nextthing.co/chip.jfpossibilities.com/' /etc/apt/preference
   tput setaf 7;   echo ""
 apt update
   tput setaf 3;   echo "Done."
-
+  
+  tput setaf 7;   echo ""
+  tput setaf 3;   echo "Updating Pico-8"
+  tput setaf 7;   echo ""
+rm -rf /usr/lib/pico-8
+wget www.lexaloffle.com/dl/chip/pico-8_0.2.4_chip.zip
+unzip pico-8_0.2.4_chip.zip -d /usr/lib
+rm pico-8_0.2.4_chip.zip
+  tput setaf 3;   echo "Done."
+  
   tput setaf 7;   echo ""
   tput setaf 4;   echo "Installing OpenSSH Server"
   tput setaf 7;   echo ""
