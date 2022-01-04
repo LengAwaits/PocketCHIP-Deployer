@@ -39,9 +39,10 @@ apt update
   tput setaf 7;   echo ""
   tput setaf 3;   echo "Updating Pico-8"
   tput setaf 7;   echo ""
-rm -rf /usr/lib/pico-8
+rm -rf /usr/lib/pico8
 wget www.lexaloffle.com/dl/chip/pico-8_0.2.4_chip.zip
 unzip pico-8_0.2.4_chip.zip -d /usr/lib
+mv /usr/lib/pico-8 /usr/lib/pico8
 rm pico-8_0.2.4_chip.zip
   tput setaf 3;   echo "Done."
   
