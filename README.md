@@ -8,6 +8,6 @@ PocketCHIP-Deployer automates the following common first-time-setup tasks:
 - Update the '/etc/apt/sources.list' file from defunct debian.org and nextthing.co repositiories to active debian.org and jfpossibilities.com repositories.
 - Update the '/etc/apt/preferences' file from defunct nextthing.co repositiories to active jfpossibilities.com repositories.
 - Resynchronize the APT package index.
-- Install and start an OpenSSH service, then report the CHIP's IP address on the connected wireless network.
+- Install and start an OpenSSH service, then display the CHIP's wireless network IP address.
 
 Be sure to connect to your wireless network using the Pocket-Home GUI or NMCLI before running this script.
