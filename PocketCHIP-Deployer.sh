@@ -67,6 +67,6 @@ systemctl start ssh
 echo "Done."
   
   tput setaf 7;   echo ""
-  echo "  Setup Complete! "
+  echo "Setup Complete! "
   echo "CHIP's IP Address:"
 ip -4 a show wlan0 | grep -Po 'inet \K[0-9.]*'
