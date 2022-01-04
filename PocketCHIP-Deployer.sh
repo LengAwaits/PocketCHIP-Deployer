@@ -32,6 +32,7 @@ sed -i 's/opensource.nextthing.co/chip.jfpossibilities.com/' /etc/apt/preference
   tput setaf 7;   echo ""
   tput setaf 3;   echo "Updating APT package list"
   tput setaf 7;   echo ""
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys AA8E81B4331F7F50
 apt update
   tput setaf 3;   echo "Done."
   
