@@ -50,11 +50,10 @@ apt -y upgrade
   tput setaf 6;   echo "Updating Pico-8"
   echo ""
   sleep 5
-rm -rf /usr/lib/pico8
-wget www.lexaloffle.com/dl/chip/pico-8_0.2.4_chip.zip
+rm -rf /usr/lib/pico-8
+wget -P ~/ https://www.lexaloffle.com/dl/chip/pico-8_0.2.4_chip.zip
 unzip pico-8_0.2.4_chip.zip -d /usr/lib
-mv /usr/lib/pico-8 /usr/lib/pico8
-rm pico-8_0.2.4_chip.zip
+rm ~/pico-8_0.2.4_chip.zip
   echo "Done."
   read -rsp $'Press any key to continue...\n' -n1 key
   
