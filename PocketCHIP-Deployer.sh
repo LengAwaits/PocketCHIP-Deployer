@@ -52,7 +52,7 @@ apt -y upgrade
   sleep 5
 rm -rf /usr/lib/pico-8
 wget -P ~/ https://www.lexaloffle.com/dl/chip/pico-8_0.2.4_chip.zip
-unzip pico-8_0.2.4_chip.zip -d /usr/lib
+unzip ~/pico-8_0.2.4_chip.zip -d /usr/lib
 rm ~/pico-8_0.2.4_chip.zip
   echo "Done."
   read -rsp $'Press any key to continue...\n' -n1 key
