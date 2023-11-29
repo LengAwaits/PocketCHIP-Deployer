@@ -51,10 +51,10 @@ apt -y upgrade
   echo ""
   sleep 5
 rm -rf /usr/lib/pico8
-wget  https://www.lexaloffle.com/dl/chip/pico-8_0.2.4_chip.zip
-unzip pico-8_0.2.4_chip.zip -d /usr/lib
+wget  https://www.lexaloffle.com/dl/chip/pico-8_0.2.5g_chip.zip
+unzip pico-8_0.2.5g_chip.zip -d /usr/lib
 mv /usr/lib/pico-8 /usr/lib/pico8
-rm pico-8_0.2.4_chip.zip
+rm pico-8_0.2.5g_chip.zip
   echo "Done."
   read -rsp $'Press any key to continue...\n' -n1 key
   
